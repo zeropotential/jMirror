@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jMirror Test</title>
+
+    <!-- GENERAL FILES -->
+	<script type = "text/javascript" src="references/scripts/jquery-1.12.4.min.js"></script>	
+	<script type = "text/javascript" src="references/bootstrap/js/bootstrap.min.js"></script>
+	<script type = "text/javascript" src="config/config.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5a0TeqRip4VaruDBKqihimSlB0oD7uRI"></script>
+
+	<link rel = "stylesheet" href = "references/css/fonts.css" />
+	<link rel = "stylesheet" href = "references/bootstrap/css/bootstrap.css" />
+	<link rel = "stylesheet" href = "references/css/main.css" />
+
+    <!-- CLOCK -->
+    <script type ="text/javascript" src="modules/clock/js/clock.js"></script>
+    <link rel = "stylesheet" href = "modules/clock/css/clock.css" />
+
+    <!-- WEATHER -->
+    <script type ="text/javascript" src="modules/weather/js/weather.js"></script>
+    <link rel = "stylesheet" href="modules/weather/css/weather.css" />
+
+    <!-- NEWS -->
+    <script type ="text/javascript" src="modules/news/js/news.js"></script>
+    <link rel = "stylesheet" href="modules/news/css/news.css" />
+
+</head>
+<body>
+	<div class= "main">
+		<div class= "row">
+			<div class = "container clock-test col-lg-6">
+				<div id="greeting"></div> 
+				<div id="clock" class="clock"></div>
+				<div id="date" class="date"></div>
+			</div>
+			<div class = "container weather-test col-lg-6">
+				<div id="location" class = "location"></div>
+				<div id="weather" class="weather"></div>
+				<div style = "float: right;">Up to date weather forecast brought to you by - <i>DarkSky.net</i></div>
+			</div>
+		</div>
+
+		<div class = "row bottom">
+			<div class = "container news-test col-lg-9">
+				<div id="news" class="news"></div>
+				<div style = "float:left;"><i>Source: The New York Times</i></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+.weather{
+	display: table;
+}
+
+.weather div{
+	display: table-cell;
+	padding: 3px;
+}
+
+.weather-test
+{
+	float: right;
+	font-size: 12px;
+}
+
+.weathersummary{
+	width: 70px;
+}
+
+.location{
+	float: left;
+}
+
+.clear-day
+{
+	content: url(../images/png/clear-day.png);
+	position:center;
+}
+
+.clear-night
+{
+	content: url(../images/png/clear-night.png);
+}
+
+.partly-cloudy-day
+{
+	content: url(../images/png/partly-cloudy-day.png);
+}
+
+.partly-cloudy-night
+{
+	content: url(../images/png/partly-cloudy-night.png);
+}
+
+.cloudy
+{
+	content: url(../images/png/cloudy.png);
+}
+
+.rain
+{
+	content: url(../images/png/rain.png);
+}
+
+.thunderstorm
+{
+	content: url(../images/png/thunderstorm.png);
+}

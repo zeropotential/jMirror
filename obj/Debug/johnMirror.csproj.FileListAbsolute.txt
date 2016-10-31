@@ -1,0 +1,5 @@
+C:\johnMirror\bin\Debug\ClassLibrary.dll
+C:\johnMirror\bin\Debug\ClassLibrary.pdb
+C:\johnMirror\obj\Debug\johnMirror.csprojResolveAssemblyReference.cache
+C:\johnMirror\obj\Debug\ClassLibrary.dll
+C:\johnMirror\obj\Debug\ClassLibrary.pdb

@@ -1,0 +1,18 @@
+body{
+	background-color: #18191c;
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+}
+
+.clock{
+	font-size: 3em;
+}
+
+.main{
+	overflow: hidden;
+}
+
+.clock-test
+{
+	float: left;
+}
